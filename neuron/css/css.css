@@ -1,0 +1,26 @@
+body{
+  background-color:#666;
+  color:white;
+  display:flex;
+  justify-content:center;
+  margin: 0;
+  padding: 0;
+}
+.visual-table{
+  background-color:rgb(200,200,200);
+}
+.visual-table__row{
+    display: flex;
+}
+.visual-table__row_ceil{
+    width:6px;
+    height:6px;
+    border: 1px solid #666;
+    transition: all .1s ease;
+}
+.visual-table__row_ceil__green{
+    background-color:green;
+}
+.visual-table__row_ceil__blue{
+    background-color:blue;
+}
